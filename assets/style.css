@@ -1,0 +1,30 @@
+body {
+    background: rgba(206, 206, 209, 1);
+}
+
+.list-group-item span i {
+    margin-right: 15px;
+}
+
+.collapse-list {
+    list-style: none;
+    padding: 0;
+}
+
+.collapse-list li {
+    transition: 0.25s all;
+}
+
+.collapse-list li a{
+    transition: 0.4s all;
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.collapse-list li a:hover{
+    color: azure;
+}
+
+.collapse-list li:hover {
+    transform: translateX(10px);
+}
